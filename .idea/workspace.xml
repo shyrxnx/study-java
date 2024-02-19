@@ -4,15 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0a2d5c91-7dec-4f57-8db9-bf05cec3682f" name="Changes" comment="feat: Add Java program to calculate sum, difference, and product of two numbers">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+    <list default="true" id="0a2d5c91-7dec-4f57-8db9-bf05cec3682f" name="Changes" comment="chore: Initial project setup">
+      <change afterPath="$PROJECT_DIR$/src/VariablesPractice.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BasicJava.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -49,7 +55,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1708321333922</updated>
-      <workItem from="1708321335253" duration="1686000" />
+      <workItem from="1708321335253" duration="2325000" />
     </task>
     <task id="LOCAL-00001" summary="chore: Initial project setup">
       <created>1708321427270</created>
@@ -72,15 +78,30 @@
       <option name="project" value="LOCAL" />
       <updated>1708322865331</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="refactor: changed the class name">
+      <created>1708323056315</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1708323056315</updated>
+    </task>
+    <task id="LOCAL-00005" summary="chore: Initial project setup">
+      <created>1708323096693</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1708323096693</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="chore: Initial project setup" />
     <MESSAGE value="feat: Add Java program to calculate sum, difference, and product of two numbers" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: Add Java program to calculate sum, difference, and product of two numbers" />
+    <MESSAGE value="refactor: changed the class name" />
+    <MESSAGE value="chore: Initial project setup" />
+    <option name="LAST_COMMIT_MESSAGE" value="chore: Initial project setup" />
   </component>
 </project>
