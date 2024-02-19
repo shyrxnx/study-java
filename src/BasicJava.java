@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main {
+public class BasicJava {
     public static void main(String[] args) {
         int number_one, number_two, sum, difference, product;
 
