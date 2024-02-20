@@ -6,7 +6,7 @@ import java.util.Random;
 public class GuessTheNumber {
     public static void main(String[] args) {
         Random randomizer = new Random();
-        int randomNumber = randomizer.nextInt(1, 101);
+        int randomNumber = randomizer.nextInt(100) + 1;
 
         Scanner userInput = new Scanner(System.in);
 
