@@ -12,7 +12,7 @@ public class Car extends Vehicle {
     }
 
     public String toString() {
-        return "Model: " + model + "\n" + "Speed: " + speed + "\n" + "No. of wheels: " + wheels;
+        return super.toString() + "\n" + "No. of wheels: " + wheels;
     }
 
 }

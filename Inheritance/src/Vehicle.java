@@ -16,4 +16,8 @@ public class Vehicle {
         this.speed = speed;
     }
 
+    public String toString() {
+        return "Model: " + model + "\n" + "Speed: " + speed;
+    }
+
 }

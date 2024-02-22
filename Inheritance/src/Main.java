@@ -11,6 +11,7 @@ public class Main {
 
         System.out.println(car3);
 
+
         Motorcycle motor1 = new Motorcycle("Yamaha", 1300, 2);
         motor1.drive();
 
