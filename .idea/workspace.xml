@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0a2d5c91-7dec-4f57-8db9-bf05cec3682f" name="Changes" comment="chore: Initial project setup">
-      <change afterPath="$PROJECT_DIR$/src/VariablesPractice.java" afterDir="false" />
+    <list default="true" id="0a2d5c91-7dec-4f57-8db9-bf05cec3682f" name="Changes" comment="feat: Implemented a Java project showcasing dynamic polymorphism">
+      <change afterPath="$PROJECT_DIR$/SimpleBankingSystem/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SimpleBankingSystem/SimpleBankingSystem.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SimpleBankingSystem/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -16,6 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="package.json" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -23,26 +28,36 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$PROJECT_DIR$/../../../../Program Files/Java/jdk-18.0.2/lib/src.zip!/java.base/java/util/ArrayList.java" root0="SKIP_INSPECTION" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2cZa0oUaD6ZFrOWO6Oo9kBjNmQX" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "extract.method.default.visibility": "private",
     "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "jdk.selected.JAVA_MODULE": "18",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "onboarding.tips.debug.path": "C:/Users/Shyrine/IdeaProjects/study-java/src/Main.java",
+    "onboarding.tips.debug.path": "C:/Users/Shyrine/IdeaProjects/study-java/SimpleBankingSystem/src/Main.java",
     "settings.editor.selected.configurable": "reference.settings.ide.settings.new.ui",
     "vue.rearranger.settings.migration": "true"
   }
@@ -55,7 +70,25 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1708321333922</updated>
-      <workItem from="1708321335253" duration="2325000" />
+      <workItem from="1708321335253" duration="5140000" />
+      <workItem from="1708327853033" duration="1723000" />
+      <workItem from="1708330755009" duration="2741000" />
+      <workItem from="1708354436100" duration="2000" />
+      <workItem from="1708354458437" duration="22000" />
+      <workItem from="1708409512100" duration="13000000" />
+      <workItem from="1708435695116" duration="2926000" />
+      <workItem from="1708482066284" duration="965000" />
+      <workItem from="1708501948381" duration="902000" />
+      <workItem from="1708515588170" duration="2212000" />
+      <workItem from="1708521300128" duration="2194000" />
+      <workItem from="1708591778523" duration="5237000" />
+      <workItem from="1708644653611" duration="2162000" />
+      <workItem from="1708659142448" duration="6439000" />
+      <workItem from="1708667649160" duration="8000" />
+      <workItem from="1709032906905" duration="512000" />
+      <workItem from="1709039481393" duration="6000" />
+      <workItem from="1709084739280" duration="123000" />
+      <workItem from="1709108523404" duration="265000" />
     </task>
     <task id="LOCAL-00001" summary="chore: Initial project setup">
       <created>1708321427270</created>
@@ -92,16 +125,245 @@
       <option name="project" value="LOCAL" />
       <updated>1708323096693</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="chore: Initial project setup">
+      <created>1708323688088</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1708323688088</updated>
+    </task>
+    <task id="LOCAL-00007" summary="feat: add A Java program for practice on Java's data types">
+      <created>1708323850639</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1708323850640</updated>
+    </task>
+    <task id="LOCAL-00008" summary="feat: add A Java program for practice on swapping content of two variables">
+      <created>1708324514093</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1708324514093</updated>
+    </task>
+    <task id="LOCAL-00009" summary="feat: add A Java program for practice on simple GUI using JOptionPane">
+      <created>1708331145668</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1708331145668</updated>
+    </task>
+    <task id="LOCAL-00010" summary="feat: add A Java program for practice on simple GUI using JOptionPane">
+      <created>1708331573504</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1708331573504</updated>
+    </task>
+    <task id="LOCAL-00011" summary="feat: add A Java program to check if the sum of two integers is even or odd">
+      <created>1708331913598</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1708331913598</updated>
+    </task>
+    <task id="LOCAL-00012" summary="feat: add A Java program for playing rock, paper, scissors with a computer (using random module)">
+      <created>1708333484254</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1708333484254</updated>
+    </task>
+    <task id="LOCAL-00013" summary="fix: Corrected a typo">
+      <created>1708409656451</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1708409656451</updated>
+    </task>
+    <task id="LOCAL-00014" summary="feat: add a Java program to calculate sum of even numbers">
+      <created>1708417733933</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1708417733933</updated>
+    </task>
+    <task id="LOCAL-00015" summary="refactor: optimize calculation of sum of even numbers">
+      <created>1708418000690</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1708418000690</updated>
+    </task>
+    <task id="LOCAL-00016" summary="feat: add a Java program to calculate factorial of a given number">
+      <created>1708418543755</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1708418543755</updated>
+    </task>
+    <task id="LOCAL-00017" summary="feat: add a Java guess the number game">
+      <created>1708420219189</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1708420219189</updated>
+    </task>
+    <task id="LOCAL-00018" summary="refactor: changed the way of generating a random number">
+      <created>1708420318307</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1708420318307</updated>
+    </task>
+    <task id="LOCAL-00019" summary="feat: made a Java program that checks if the given number is a prime number or not.">
+      <created>1708429087376</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1708429087377</updated>
+    </task>
+    <task id="LOCAL-00020" summary="feat: made a Java program that prints the Fibonacci series up to a given number of terms">
+      <created>1708430800422</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1708430800422</updated>
+    </task>
+    <task id="LOCAL-00021" summary="feat: made a Java program that uses methods/functions to add two numbers and checks if a number is even or odd">
+      <created>1708432560773</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1708432560773</updated>
+    </task>
+    <task id="LOCAL-00022" summary="feat: made a Java program to practice some things you can do to an array">
+      <created>1708438459963</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1708438459963</updated>
+    </task>
+    <task id="LOCAL-00023" summary="feat: made a Java program to practice some things you can do on ArrayList">
+      <created>1708515959867</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1708515959867</updated>
+    </task>
+    <task id="LOCAL-00024" summary="feat: made a Java program to practice some OOP concepts">
+      <created>1708523467949</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1708523467949</updated>
+    </task>
+    <task id="LOCAL-00025" summary="feat: made a Java program to practice some inheritance concepts">
+      <created>1708594119578</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1708594119578</updated>
+    </task>
+    <task id="LOCAL-00026" summary="refactor: changed the implementation of toString method">
+      <created>1708594407895</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1708594407895</updated>
+    </task>
+    <task id="LOCAL-00027" summary="feat: made a simple Java project about abstraction">
+      <created>1708595006290</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1708595006290</updated>
+    </task>
+    <task id="LOCAL-00028" summary="feat: Implemented a simple Java project to demonstrate inheritance and abstraction">
+      <created>1708597040145</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1708597040145</updated>
+    </task>
+    <task id="LOCAL-00029" summary="feat: Implemented a simple Java project to demonstrate encapsulation and polymorphism">
+      <created>1708646770047</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1708646770047</updated>
+    </task>
+    <task id="LOCAL-00030" summary="feat: Implemented a simple Java project to demonstrate encapsulation">
+      <created>1708662500186</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1708662500187</updated>
+    </task>
+    <task id="LOCAL-00031" summary="feat: Implemented a Java project showcasing interface implementation">
+      <created>1708663756463</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1708663756463</updated>
+    </task>
+    <task id="LOCAL-00032" summary="feat: Implemented a Java project showcasing polymorphism">
+      <created>1708664665579</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1708664665579</updated>
+    </task>
+    <task id="LOCAL-00033" summary="feat: Implemented a Java project showcasing dynamic polymorphism">
+      <created>1708665665648</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1708665665648</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat: Add Java program to calculate sum, difference, and product of two numbers" />
-    <MESSAGE value="refactor: changed the class name" />
-    <MESSAGE value="chore: Initial project setup" />
-    <option name="LAST_COMMIT_MESSAGE" value="chore: Initial project setup" />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="feat: add A Java program for practice on swapping content of two variables" />
+    <MESSAGE value="feat: add A Java program for practice on simple GUI using JOptionPane" />
+    <MESSAGE value="feat: add A Java program to check if the sum of two integers is even or odd" />
+    <MESSAGE value="feat: add A Java program for playing rock, paper, scissors with a computer (using random module)" />
+    <MESSAGE value="fix: Corrected a typo" />
+    <MESSAGE value="feat: add a Java program to calculate sum of even numbers" />
+    <MESSAGE value="refactor: optimize calculation of sum of even numbers" />
+    <MESSAGE value="feat: add a Java program to calculate factorial of a given number" />
+    <MESSAGE value="feat: add a Java guess the number game" />
+    <MESSAGE value="refactor: changed the way of generating a random number" />
+    <MESSAGE value="feat: made a Java program that checks if the given number is a prime number or not." />
+    <MESSAGE value="feat: made a Java program that prints the Fibonacci series up to a given number of terms" />
+    <MESSAGE value="feat: made a Java program that uses methods/functions to add two numbers and checks if a number is even or odd" />
+    <MESSAGE value="feat: made a Java program to practice some things you can do to an array" />
+    <MESSAGE value="feat: made a Java program to practice some things you can do on ArrayList" />
+    <MESSAGE value="feat: made a Java program to practice some OOP concepts" />
+    <MESSAGE value="feat: made a Java program to practice some inheritance concepts" />
+    <MESSAGE value="refactor: changed the implementation of toString method" />
+    <MESSAGE value="feat: made a simple Java project about abstraction" />
+    <MESSAGE value="feat: Implemented a simple Java project to demonstrate inheritance and abstraction" />
+    <MESSAGE value="feat: Implemented a simple Java project to demonstrate encapsulation and polymorphism" />
+    <MESSAGE value="feat: Implemented a simple Java project to demonstrate encapsulation" />
+    <MESSAGE value="feat: Implemented a Java project showcasing interface implementation" />
+    <MESSAGE value="feat: Implemented a Java project showcasing polymorphism" />
+    <MESSAGE value="feat: Implemented a Java project showcasing dynamic polymorphism" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Implemented a Java project showcasing dynamic polymorphism" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

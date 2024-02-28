@@ -3,8 +3,15 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Abstraction/Abstraction.iml" filepath="$PROJECT_DIR$/Abstraction/Abstraction.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DynamicPolymorphism/DynamicPolymorphism.iml" filepath="$PROJECT_DIR$/DynamicPolymorphism/DynamicPolymorphism.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Encapsulation/Encapsulation.iml" filepath="$PROJECT_DIR$/Encapsulation/Encapsulation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EncapsulationAndPolymorphism/EncapsulationAndPolymorphism.iml" filepath="$PROJECT_DIR$/EncapsulationAndPolymorphism/EncapsulationAndPolymorphism.iml" />
       <module fileurl="file://$PROJECT_DIR$/Inheritance/Inheritance.iml" filepath="$PROJECT_DIR$/Inheritance/Inheritance.iml" />
+      <module fileurl="file://$PROJECT_DIR$/InheritanceAndAbstraction/InheritanceAndAbstraction.iml" filepath="$PROJECT_DIR$/InheritanceAndAbstraction/InheritanceAndAbstraction.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Interface/Interface.iml" filepath="$PROJECT_DIR$/Interface/Interface.iml" />
       <module fileurl="file://$PROJECT_DIR$/OOP/OOP.iml" filepath="$PROJECT_DIR$/OOP/OOP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Polymorphism/Polymorphism.iml" filepath="$PROJECT_DIR$/Polymorphism/Polymorphism.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SimpleBankingSystem/SimpleBankingSystem.iml" filepath="$PROJECT_DIR$/SimpleBankingSystem/SimpleBankingSystem.iml" />
       <module fileurl="file://$PROJECT_DIR$/study-java.iml" filepath="$PROJECT_DIR$/study-java.iml" />
     </modules>
   </component>
