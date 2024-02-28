@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0a2d5c91-7dec-4f57-8db9-bf05cec3682f" name="Changes" comment="feat: Implemented a Java project showcasing dynamic polymorphism">
-      <change afterPath="$PROJECT_DIR$/SimpleBankingSystem/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SimpleBankingSystem/SimpleBankingSystem.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SimpleBankingSystem/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="0a2d5c91-7dec-4f57-8db9-bf05cec3682f" name="Changes" comment="chore: Initial project set up">
+      <change afterPath="$PROJECT_DIR$/SimpleBankingSystem/src/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SimpleBankingSystem/src/CheckingAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SimpleBankingSystem/src/SavingsAccount.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimpleBankingSystem/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleBankingSystem/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,26 +42,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "extract.method.default.visibility": "private",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "jdk.selected.JAVA_MODULE": "18",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "onboarding.tips.debug.path": "C:/Users/Shyrine/IdeaProjects/study-java/SimpleBankingSystem/src/Main.java",
-    "settings.editor.selected.configurable": "reference.settings.ide.settings.new.ui",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;extract.method.default.visibility&quot;: &quot;private&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;18&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Shyrine/IdeaProjects/study-java/SimpleBankingSystem/src/Main.java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.new.ui&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -88,7 +88,8 @@
       <workItem from="1709032906905" duration="512000" />
       <workItem from="1709039481393" duration="6000" />
       <workItem from="1709084739280" duration="123000" />
-      <workItem from="1709108523404" duration="265000" />
+      <workItem from="1709108523404" duration="4177000" />
+      <workItem from="1709114714910" duration="1044000" />
     </task>
     <task id="LOCAL-00001" summary="chore: Initial project setup">
       <created>1708321427270</created>
@@ -321,7 +322,14 @@
       <option name="project" value="LOCAL" />
       <updated>1708665665648</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="chore: Initial project set up">
+      <created>1709110430408</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1709110430408</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -329,7 +337,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="feat: add A Java program for practice on swapping content of two variables" />
     <MESSAGE value="feat: add A Java program for practice on simple GUI using JOptionPane" />
     <MESSAGE value="feat: add A Java program to check if the sum of two integers is even or odd" />
     <MESSAGE value="feat: add A Java program for playing rock, paper, scissors with a computer (using random module)" />
@@ -354,7 +361,8 @@
     <MESSAGE value="feat: Implemented a Java project showcasing interface implementation" />
     <MESSAGE value="feat: Implemented a Java project showcasing polymorphism" />
     <MESSAGE value="feat: Implemented a Java project showcasing dynamic polymorphism" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: Implemented a Java project showcasing dynamic polymorphism" />
+    <MESSAGE value="chore: Initial project set up" />
+    <option name="LAST_COMMIT_MESSAGE" value="chore: Initial project set up" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
