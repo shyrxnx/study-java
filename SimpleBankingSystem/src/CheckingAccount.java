@@ -8,6 +8,6 @@ public class CheckingAccount extends Account {
     void displayAccountDetails() {
         System.out.println("===== Checking Account =====");
         System.out.println("Account ID: " + getAccountID());
-        System.out.println("Balance: $" + getBalance());
+        System.out.println("Balance: $" + getBalance() + "\n");
     }
 }

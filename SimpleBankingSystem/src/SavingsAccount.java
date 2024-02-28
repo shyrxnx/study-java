@@ -11,6 +11,6 @@ public class SavingsAccount extends Account {
         System.out.println("===== Savings Account =====");
         System.out.println("Account ID: " + getAccountID());
         System.out.println("Balance: $" + getBalance());
-        System.out.println("Interest Rate: " + interestRate);
+        System.out.println("Interest Rate: " + interestRate + "\n");
     }
 }

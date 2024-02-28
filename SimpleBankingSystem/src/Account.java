@@ -17,17 +17,17 @@ public abstract class Account {
     public void deposit(double amount) {
         if (amount > 0) {
             balance += amount;
-            System.out.println("$" + amount + " deposited successfully." );
+            System.out.println("$" + amount + " deposited successfully." + "\n");
         } else {
-            System.out.println("Invalid amount for deposit.");
+            System.out.println("Invalid amount for deposit." + "\n");
         }
     }
     public void withdraw(double amount) {
         if (amount > 0 && balance >= amount) {
             balance -= amount;
-            System.out.println("$" + amount + " withdrawn successfully.");
+            System.out.println("$" + amount + " withdrawn successfully." + "\n");
         } else {
-            System.out.println("Insufficient funds or invalid amount for withdrawal.");
+            System.out.println("Insufficient funds or invalid amount for withdrawal." + "\n");
         }
     }
     abstract void displayAccountDetails();
